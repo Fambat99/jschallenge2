@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Grade Calculator</title>
+  <style>
+    h1 {
+        text-align: center;
+        align-items: center;
+      }
+      
+  </style>
+  <script>
+      let mark = prompt("Enter student's mark (0 - 100):");
+
+      let grade;
+      if (mark >= 70 && mark <= 100) {
+        grade = "A";} 
+        else if (mark >= 50 && mark <= 60) {
+        grade = "C";} 
+        else if (mark >= 0 && mark <= 40) {
+        grade = "F";} 
+        else {
+        grade = "B";}
+
+      
+      document.write(`<h1>The student's grade is: ${grade}</h1>`);
+    
+  </script>
+</head>
+<body>
+ 
+</body>
+</html>
